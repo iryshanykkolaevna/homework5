@@ -59,7 +59,9 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Advantage section -->
@@ -445,5 +447,51 @@
         </div>
       </div>
     </footer>
+    <!-- Modal -->
+    <div class="backdrop is-hiden" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>X</button>
+        <h2>Leave your contacts and we will call you back</h2>
+        <form name="contact-form">
+          <div class="modal-field">
+            <label class="modal-label" for="user-name">Name</label>
+            <input
+              class="modal-imput"
+              id="user-name"
+              type="text"
+              name="user-name"
+            />
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-label" for="user-tel">Phone</label>
+            <input class="modal-imput" id="user-tel" type="tel" />
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-label" for="email">Email</label>
+            <input class="modal-imput" id="email" type="email" />
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text imput"
+            ></textarea>
+          </div>
+          <div>
+            <input id="privacy-policy" type="checkbox" />
+            <label for="privacy-policy"
+              >I accept the terms and conditions of the Privacy Policy</label
+            >
+          </div>
+          <button class="hero-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./"></script>
   </body>
 </html>
