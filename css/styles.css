@@ -555,6 +555,20 @@ line-height: 1.2;
 border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));;
 border-radius: 4px;
 padding: 8px 16px;
+padding-left: 38px;
+}
+.modal-imput:focus{
+  outline: none;
+  border-color: #4D5AE5;
+}
+.modal-imput-wrap{
+  position: relative;
+}
+.modal-imput-icons{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .modal-textarea {
   min-height: 120px;
