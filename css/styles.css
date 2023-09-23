@@ -562,6 +562,11 @@ cursor: pointer;
 }
 .modal-close:hover{
   background-color: #404bbf;
+  border: none;
+}
+.modal-close:focus{
+  background-color: #404bbf;
+   border: none;
 }
 .modal-field {
   margin-bottom: 26px;
