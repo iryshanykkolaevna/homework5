@@ -677,7 +677,7 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 
 }
-.modal-imput {
+.modal-input {
   width: 100%;
 border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));;
 border-radius: 4px;
@@ -689,40 +689,70 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.modal-imput:focus{
+.modal-input:focus{
   outline: none;
   border-color: #4D5AE5;
 }
-.modal-imput-wrap{
+.modal-input-wrap{
   position: relative;
 }
-.modal-imput-icons{
+.modal-input-icons{
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-imput-icons:focus{
+.modal-input-icons:focus{
   fill: #4D5AE5;
 }
-.modal-textarea {
-  min-height: 120px;
-  width: 100%;
-  resize: none;
-  border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
-  ;
-  border-radius: 4px;
-  padding: 8px 16px;
- 
+.modal-field-textarea{
+  margin-bottom: 16px
 }
-.modal-textarea:focus{
-  outline: none;
-    border-color: #4D5AE5;
+.textarea {
+  height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+    padding: 8px 16px;
+    outline: transparent;
+    width: 100%;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea:focus {
+  border: 1px solid var(--IRIS, #4D5AE5);
 }
 .modal-checkbox {
-  margin: 24px;
-  margin-top: 16px;
+  margin-bottom: 24px;
+    display: flex;
+}
+.input-check-text{
+  font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+.check-empty{
+  width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.input-checkbox:checked+.input-check-text>.check-empty {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+  ;
 }
 .modal-buttom{
   display: block;
