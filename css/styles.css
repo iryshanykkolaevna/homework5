@@ -546,9 +546,17 @@ left: 50%;
   visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close{
+  display: flex;
   position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
 width: 24px;
 height: 24px;
+border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 0;
+cursor: pointer;
 }
 .modal-field {
   margin-bottom: 26px;
