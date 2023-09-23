@@ -547,8 +547,8 @@ left: 50%;
 }
 .modal-close{
   position: absolute;
-  top: 24px;
-  right: 24px;
+width: 24px;
+height: 24px;
 }
 .modal-field {
   margin-bottom: 26px;
