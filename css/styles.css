@@ -489,7 +489,6 @@ fill: #f4f4fd;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;
 }
 .footer-social-link{
@@ -527,7 +526,6 @@ width: 40px;
 .form-footer {
   display: flex;
   align-items: flex-end;
-  /*  Выравнивание двух флекс конейнеров по низу. Для вырвнивания по низу флексов */
   gap: 24px;
 }
 
