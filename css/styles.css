@@ -568,6 +568,17 @@ cursor: pointer;
   background-color: #404bbf;
    border: none;
 }
+.modal-close-svg{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop-h{
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color:#2E2F42;
+  margin-bottom: 16px;
+}
 .modal-field {
   margin-bottom: 26px;
 }
@@ -575,7 +586,11 @@ cursor: pointer;
   display: block;
   margin-bottom: 4px;
 font-weight: 400;
-line-height: 1.2;
+line-height: 1.17;
+font-size: 12px;
+letter-spacing: 0.04em;
+color: #8e8f99;
+
 }
 .modal-imput {
   width: 100%;
