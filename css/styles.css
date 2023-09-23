@@ -527,9 +527,9 @@ width: 40px;
   display: none;
 }
 .modal{
- position: relative;
+ position: absolute;
  width: 100%;
- max-width: 610px;
+ max-width: 408px;
  height: 100%;
  min-height: 584px;
  overflow: auto;
@@ -547,7 +547,6 @@ width: 40px;
 }
 .modal-field {
   margin-bottom: 26px;
-  position: absolute
 }
 .modal-label{
   display: block;
