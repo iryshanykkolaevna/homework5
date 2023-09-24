@@ -790,6 +790,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .input-checkbox:checked+.input-check-text>.check-empty {
   background-color: #404bbf;
